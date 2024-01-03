@@ -1,6 +1,11 @@
 getname();
 console.log(x);
 
+//but not in case of let and const
+//they are introduced in ECMASCRIPT
+//arrow functions works as a variables
+
+let x = 4;
 function getname() {
     console.log("Hie Sieey")
 }
