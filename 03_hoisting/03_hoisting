@@ -1,0 +1,6 @@
+getname();
+console.log(x);
+
+function getname() {
+    console.log("Hie Sieey")
+}
