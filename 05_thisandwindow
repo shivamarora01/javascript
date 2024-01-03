@@ -1,0 +1,2 @@
+//Window always declared in Global space as soon as execution context declared
+//and this keyword too declared which refers to the window object
