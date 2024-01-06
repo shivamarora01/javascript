@@ -1,0 +1,40 @@
+// function statement & function decalartion
+function a(){
+    console.log("function statement ")
+}
+
+// function Expression
+var b = function (){
+    console.log("i am function expression")
+} 
+
+//differnce in expression and statement is Hoisting
+//b() will show no function beacuse var b stores undefined 
+//a() will show output
+
+//anonymous function
+//unvalid 
+function(){
+    console.log("unnamed function")
+}
+
+//named function expression
+var b = function a(){
+    console.log("i am function expression")
+} 
+
+//differnce between para and argu
+function xyz(param1 , param2){ //para1 , param2 is parameters which passed in decalartion
+    return param1;
+}
+xyz(3,5); // (3,5) is arguments which passed in function call 
+
+
+
+function xyz( a(){
+    return a ;
+})
+//first class function is ability of functions to be used like values and can be passed to another fnctions or returned from other functions 
+//first class citizens
+
+//arrow functions
